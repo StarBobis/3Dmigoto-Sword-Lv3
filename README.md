@@ -1,11 +1,3 @@
-# Mod 圈子恶臭
-因为开源这个工具，AGMG有人已经把我开盒了，实在是无语了，没想到3Dmigoto mod圈能这么恶臭。
-3Dmigoto是开源的，凭什么我做的代码不能开源？凭什么一个开源工具制造的模型就不能被开源代码逆向？
-有些国人一天天的，到处攻击我，恶意造谣，抹黑，歪曲事实，挑起争端，实在是恶臭。
-有本事一次也别他妈用逆向工具，一边用一边喷，嘴脸。
-
-退圈了，再也不碰mod，有技术问题请自己解决。
-
 # 3Dmigoto-Sword
 Extract .ib and .vb format 3D model from 3Dmigoto buffer files.
 
