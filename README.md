@@ -29,6 +29,9 @@ build boost:
 
 ```.\b2.exe variant=release link=static runtime-link=static threading=multi runtime-debugging=off```
 
+
+- GUI use WinForm and .Net v4.7.2 ,see: https://github.com/StarBobis/3Dmigoto-Sword-GUI
+
 # ThirdParty Used
 - Json for morden C++ https://github.com/nlohmann/json/
 - easylogpp https://github.com/amrayn/easyloggingpp/
