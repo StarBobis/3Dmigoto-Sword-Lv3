@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Dependencys">
+      <UniqueIdentifier>{5901002d-fbac-4f1f-b4df-633b278b47ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencys\Logger">
+      <UniqueIdentifier>{fa347f56-c48a-4fd0-8d37-9b28330bacc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencys\String">
+      <UniqueIdentifier>{f96770e2-f006-42a2-84a5-9c2545b12913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencys\File">
+      <UniqueIdentifier>{9dca86a9-7cb9-4b0e-ad4a-c50a86ed3896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencys\JSON">
+      <UniqueIdentifier>{fc4cafb5-a4ee-4457-8ee5-3194bd0d98ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameConfigs">
+      <UniqueIdentifier>{eb8fd44f-b9db-4b5e-b0db-9bc5be2be73c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameConfigs\Genshin Impact">
+      <UniqueIdentifier>{3526538c-4447-43bd-9e44-9b77bd7293b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameConfigs\Honkai Impact 3rd">
+      <UniqueIdentifier>{2c7dad33-67bd-4a74-adb3-7ee4892c4f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameConfigs\Honkai StarRail">
+      <UniqueIdentifier>{2eae0e95-aa79-440c-a7b3-3c939df17fbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameConfigs\Naraka Bladepoint">
+      <UniqueIdentifier>{762c1179-146d-4c6a-baf6-3b2f12901e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameConfigs\Zenless Zone Zero">
+      <UniqueIdentifier>{90466b15-b7d5-47ac-8450-f1c513dcb046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Functions">
+      <UniqueIdentifier>{92db65b1-b7df-4d26-8a4a-9d9308177f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ReverseParser">
+      <UniqueIdentifier>{b69c72a9-9ed9-4a4e-80fd-9e5d3918a406}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="easylogging++.cc">
+      <Filter>Dependencys\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="NMLoggerUtils.cpp">
+      <Filter>Dependencys\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="NMStringUtils.cpp">
+      <Filter>Dependencys\String</Filter>
+    </ClCompile>
+    <ClCompile Include="NMFileUtils.cpp">
+      <Filter>Dependencys\File</Filter>
+    </ClCompile>
+    <ClCompile Include="GIBody.cpp">
+      <Filter>Source Files\GameConfigs\Genshin Impact</Filter>
+    </ClCompile>
+    <ClCompile Include="GIBodyNPC.cpp">
+      <Filter>Source Files\GameConfigs\Genshin Impact</Filter>
+    </ClCompile>
+    <ClCompile Include="GIObject.cpp">
+      <Filter>Source Files\GameConfigs\Genshin Impact</Filter>
+    </ClCompile>
+    <ClCompile Include="GIObject2.cpp">
+      <Filter>Source Files\GameConfigs\Genshin Impact</Filter>
+    </ClCompile>
+    <ClCompile Include="GIObject3.cpp">
+      <Filter>Source Files\GameConfigs\Genshin Impact</Filter>
+    </ClCompile>
+    <ClCompile Include="HI3Body.cpp">
+      <Filter>Source Files\GameConfigs\Honkai Impact 3rd</Filter>
+    </ClCompile>
+    <ClCompile Include="HI3Body2.cpp">
+      <Filter>Source Files\GameConfigs\Honkai Impact 3rd</Filter>
+    </ClCompile>
+    <ClCompile Include="HI3Object.cpp">
+      <Filter>Source Files\GameConfigs\Honkai Impact 3rd</Filter>
+    </ClCompile>
+    <ClCompile Include="ZZZBody.cpp">
+      <Filter>Source Files\GameConfigs\Zenless Zone Zero</Filter>
+    </ClCompile>
+    <ClCompile Include="ZZZBodyType2.cpp">
+      <Filter>Source Files\GameConfigs\Zenless Zone Zero</Filter>
+    </ClCompile>
+    <ClCompile Include="ZZZObject.cpp">
+      <Filter>Source Files\GameConfigs\Zenless Zone Zero</Filter>
+    </ClCompile>
+    <ClCompile Include="ZZZObjectType2.cpp">
+      <Filter>Source Files\GameConfigs\Zenless Zone Zero</Filter>
+    </ClCompile>
+    <ClCompile Include="ZZZWeapon.cpp">
+      <Filter>Source Files\GameConfigs\Zenless Zone Zero</Filter>
+    </ClCompile>
+    <ClCompile Include="HSRBody.cpp">
+      <Filter>Source Files\GameConfigs\Honkai StarRail</Filter>
+    </ClCompile>
+    <ClCompile Include="HSRBodyEnemy.cpp">
+      <Filter>Source Files\GameConfigs\Honkai StarRail</Filter>
+    </ClCompile>
+    <ClCompile Include="HSRBodyNPC.cpp">
+      <Filter>Source Files\GameConfigs\Honkai StarRail</Filter>
+    </ClCompile>
+    <ClCompile Include="HSRHair.cpp">
+      <Filter>Source Files\GameConfigs\Honkai StarRail</Filter>
+    </ClCompile>
+    <ClCompile Include="HSRObject.cpp">
+      <Filter>Source Files\GameConfigs\Honkai StarRail</Filter>
+    </ClCompile>
+    <ClCompile Include="HSRObjectIB.cpp">
+      <Filter>Source Files\GameConfigs\Honkai StarRail</Filter>
+    </ClCompile>
+    <ClCompile Include="HSRWeapon.cpp">
+      <Filter>Source Files\GameConfigs\Honkai StarRail</Filter>
+    </ClCompile>
+    <ClCompile Include="HSRWeaponType2.cpp">
+      <Filter>Source Files\GameConfigs\Honkai StarRail</Filter>
+    </ClCompile>
+    <ClCompile Include="HSRWeaponType3.cpp">
+      <Filter>Source Files\GameConfigs\Honkai StarRail</Filter>
+    </ClCompile>
+    <ClCompile Include="NBPBody.cpp">
+      <Filter>Source Files\GameConfigs\Naraka Bladepoint</Filter>
+    </ClCompile>
+    <ClCompile Include="NBPEyeball.cpp">
+      <Filter>Source Files\GameConfigs\Naraka Bladepoint</Filter>
+    </ClCompile>
+    <ClCompile Include="NBPObject.cpp">
+      <Filter>Source Files\GameConfigs\Naraka Bladepoint</Filter>
+    </ClCompile>
+    <ClCompile Include="NBPObjectIB.cpp">
+      <Filter>Source Files\GameConfigs\Naraka Bladepoint</Filter>
+    </ClCompile>
+    <ClCompile Include="NBPWeapon.cpp">
+      <Filter>Source Files\GameConfigs\Naraka Bladepoint</Filter>
+    </ClCompile>
+    <ClCompile Include="NBPWeapon2.cpp">
+      <Filter>Source Files\GameConfigs\Naraka Bladepoint</Filter>
+    </ClCompile>
+    <ClCompile Include="NMJsonUtils.cpp">
+      <Filter>Dependencys\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="WheelConfigs.cpp">
+      <Filter>Source Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="WheelFunctions.cpp">
+      <Filter>Source Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11ElementAttributeClass.cpp">
+      <Filter>Source Files\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="MergedParser.cpp">
+      <Filter>Source Files\ReverseParser</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleParser.cpp">
+      <Filter>Source Files\ReverseParser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="easylogging++.h">
+      <Filter>Dependencys\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="NMLoggerUtils.h">
+      <Filter>Dependencys\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="NMStringUtils.h">
+      <Filter>Dependencys\String</Filter>
+    </ClInclude>
+    <ClInclude Include="NMFileUtils.h">
+      <Filter>Dependencys\File</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Dependencys\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NMJsonUtils.h">
+      <Filter>Dependencys\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11ElementAttributeClass.h">
+      <Filter>Source Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="WheelFunctions.h">
+      <Filter>Source Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="WheelConfigs.h">
+      <Filter>Source Files\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="IniParser.h">
+      <Filter>Source Files\ReverseParser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="NoxusCrest.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
