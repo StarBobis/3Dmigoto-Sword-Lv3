@@ -1,4 +1,4 @@
-﻿# 3Dmigoto-Sword
+# 3Dmigoto-Sword
 Extract .ib and .vb format 3D model from 3Dmigoto buffer files.
 
 A gift for all 3Dmigoto mod author, happy new year 2024!
@@ -43,3 +43,9 @@ build boost:
 - Great thanks to 자연풍경 for reverse POC and his C# single mod ini parse code.
 - Great thanks to a unknown ProModder in AGMG for test and merged.ini parse py scripts.
 - Great thanks to Звездный Мираж and Песчаный for offer the original C++ reverse code design.
+
+# AGMG圈子恶臭
+因为开源这个工具的，AGMG有人已经把我开盒了，实在是无语了，没想到AGMG能这么恶臭。
+3Dmigoto是开源的，凭什么我做的代码不能开源？凭什么一个开源工具制造的模型就不能被开源代码逆向？
+有些国人一天天的，到处攻击我，恶意造谣，抹黑，歪曲事实，挑起争端，实在是恶臭。
+有本事一次也别他妈用逆向工具，一边用一边喷，嘴脸。
