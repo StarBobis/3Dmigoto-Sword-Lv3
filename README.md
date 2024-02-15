@@ -20,12 +20,14 @@ Discord:  https://discord.gg/Mdw8dKsTa5
 Some preconfig you will need to have:
 - VisualStudio 2022  VS143toolset.
 - Install Boost 1.84.0
+
+
 initialize boost config:
-.\bootstrap.bat
+```.\bootstrap.bat```
 
 build boost: 
 
-.\b2.exe variant=release link=static runtime-link=static threading=multi runtime-debugging=off
+```.\b2.exe variant=release link=static runtime-link=static threading=multi runtime-debugging=off```
 
 # ThirdParty Used
 - Json for morden C++ https://github.com/nlohmann/json/
