@@ -4,6 +4,7 @@
 有些国人一天天的，到处攻击我，恶意造谣，抹黑，歪曲事实，挑起争端，实在是恶臭。
 有本事一次也别他妈用逆向工具，一边用一边喷，嘴脸。
 
+退圈了，再也不碰mod，有技术问题请自己解决。
 
 # 3Dmigoto-Sword
 Extract .ib and .vb format 3D model from 3Dmigoto buffer files.
