@@ -6,6 +6,8 @@
 #include "NMLoggerUtils.h"
 #include "IniParser.h"
 
+
+
 INITIALIZE_EASYLOGGINGPP
 
 std::int32_t wmain(std::int32_t argc, wchar_t* argv[])
