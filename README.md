@@ -13,11 +13,6 @@ A gift for all 3Dmigoto mod author, happy new year 2024!
 # Tutorial
 tutorial for how to use see https://youtu.be/F2EQLG6Xw_A
 
-# Feedback
-if you have any question, problem, feedback, advice or anything, just open an issue or send me a message in discord.
-Don't forget to send me the log generated in logs folder so i can know what happened.
-Discord:  https://discord.gg/Mdw8dKsTa5
-
 # How to Build 
 Some preconfig you will need to have:
 - VisualStudio 2022  VS143toolset.
