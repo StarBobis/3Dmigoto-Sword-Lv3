@@ -10,11 +10,6 @@ INITIALIZE_EASYLOGGINGPP
 
 std::int32_t wmain(std::int32_t argc, wchar_t* argv[])
 {
-    setlocale(LC_ALL, "Chinese-simplified");
-
-    std::wstring name = argv[0];
-    LogOutput(L"Running : " + name);
-
     boost::posix_time::ptime currentTime = boost::posix_time::second_clock::local_time();
     std::string logFileName = "logs\\" + boost::posix_time::to_iso_string(currentTime) + ".log";
 
@@ -24,6 +19,11 @@ std::int32_t wmain(std::int32_t argc, wchar_t* argv[])
     logConfigurations.set(el::Level::Global, el::ConfigurationType::ToFile, "true");
     logConfigurations.set(el::Level::Global, el::ConfigurationType::Filename, logFileName);
     el::Loggers::reconfigureAllLoggers(logConfigurations);
+
+    setlocale(LC_ALL, "Chinese-simplified");
+
+    std::wstring name = argv[0];
+    LogOutput(L"Running : " + name);
 
 #ifdef _DEBUG
     std::wstring applicationLocation = getFolderPathFromFilePath(argv[0]);
