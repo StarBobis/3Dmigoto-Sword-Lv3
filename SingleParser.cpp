@@ -823,12 +823,14 @@ void ReverseModelSingle::reverseAndOutput() {
         LogOutputSplitStr();
 
         LogOutputSplitStr();
-        int readNumberOffset = 1;
 
         for (int i = 0; i < count; i++) {
             std::wstring ibFileName = reversedObject.textureOverrideIBList[i].IBFileName;
             int ibMaxNumber = reversedObject.textureOverrideIBList[i].maxNumber;
+            int ibMinNumber = reversedObject.textureOverrideIBList[i].minNumber;
+            int readNumberOffset = ibMinNumber + 1;
             LogOutput(L"ibFileName: " + ibFileName + L"  ibMaxNumber: " + std::to_wstring(ibMaxNumber));
+            LogOutput(L"ibFileName: " + ibFileName + L"  ibMinNumber: " + std::to_wstring(ibMinNumber));
 
             std::vector<byte> outputBytes;
             for (readNumberOffset; readNumberOffset <= ibMaxNumber + 1; readNumberOffset++) {
