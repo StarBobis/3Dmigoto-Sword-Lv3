@@ -3,7 +3,7 @@ Extract .ib and .vb format 3D model from 3Dmigoto buffer files.
 
 A gift for all 3Dmigoto mod author, happy new year 2024!
 
-![image](https://github.com/StarBobis/3Dmigoto-Sword/assets/151726114/4cb2c03b-6f28-4cd2-8b5a-17a30e25a482)
+![image](https://github.com/StarBobis/3Dmigoto-Sword-Lv3/assets/151726114/03c73d23-4e14-421f-a8b9-18ec7155bd2d)
 
 # Feature
 - Support every d3d11 mod type of GI,HI3,HSR,ZZZ,NBP
