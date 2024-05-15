@@ -39,6 +39,7 @@ build boost:
 - Great thanks to a unknown ProModder in AGMG for test and merged.ini parse py scripts.
 - Great thanks to Звездный Мираж and Песчаный for offer the original C++ reverse code design.
 
-# Deprecated Warning
-This program is deprecated due to custom 3dmigoto mod format encrypt, 
-only work for old open source format mod and good for learn the basics of reverse 3dmigoto mod format.
+# Discord
+Server invite link: https://discord.gg/Cz577BcRf5
+
+If you find any 3Dmigoto mod can't be reverse, contact me or open a issue with mod file in attachment and I will fix the problem as soon as I can.
