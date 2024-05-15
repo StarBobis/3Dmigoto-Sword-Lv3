@@ -79,6 +79,9 @@ public:
     void SetHSRWeaponType3();
     void SetHSRObject();
     void SetHSRObjectIB();
+    void SetHSR210Body();
+    void SetHSRBodyObject();
+    void SetHSRObject2();
 
     //Zenless Zero Zone
     void SetZZZBody();

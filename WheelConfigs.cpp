@@ -37,7 +37,10 @@ std::vector<D3D11ElementAttributeClass> WheelConfigs::getD3D11ElementAttributeLi
             D3D11ElementAttributeClass(L"HSRObjectIB"),
             D3D11ElementAttributeClass(L"HSRWeapon"),
             D3D11ElementAttributeClass(L"HSRWeaponType2"),
-            D3D11ElementAttributeClass(L"HSRWeaponType3")
+            D3D11ElementAttributeClass(L"HSRWeaponType3"),
+            D3D11ElementAttributeClass(L"HSR210Body"),
+            D3D11ElementAttributeClass(L"HSRBodyObject"),
+            D3D11ElementAttributeClass(L"HSRObject2")
         };
     }
     else if (gameName == L"Unknown") {

@@ -71,6 +71,15 @@ D3D11ElementAttributeClass::D3D11ElementAttributeClass(std::wstring gameType) {
 	else if (gameType == L"HSRObjectIB") {
 		SetHSRObjectIB();
 	}
+	else if (gameType == L"HSR210Body") {
+		SetHSR210Body();
+	}
+	else if (gameType == L"HSRBodyObject") {
+		SetHSRBodyObject();
+	}
+	else if (gameType == L"HSRObject2") {
+		SetHSRObject2();
+	}
 	//Genshin Impact
 	else if (gameType == L"GIBody") {
 		SetGIBody();

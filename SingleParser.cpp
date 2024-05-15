@@ -305,7 +305,10 @@ std::vector<DrawIBMod> parseDrawIBModList(
 
     for (TextureOverrideIB& textureOverrideIB : TextureOverrideIBList) {
         for (ModResource resourceIB : ResourceIBList) {
-            if (textureOverrideIB.IBResourceName == resourceIB.SectionName) {
+            std::wstring ibResourceNameLower = boost::algorithm::to_lower_copy(textureOverrideIB.IBResourceName);
+            std::wstring ibResourceSectionNameLower = boost::algorithm::to_lower_copy(resourceIB.SectionName);
+
+            if (ibResourceNameLower == ibResourceSectionNameLower) {
                 textureOverrideIB.IBFileFormat = resourceIB.Format;
                 textureOverrideIB.IBFileName = resourceIB.FileName;
                 break;

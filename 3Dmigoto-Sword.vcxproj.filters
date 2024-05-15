@@ -167,6 +167,15 @@
     <ClCompile Include="SingleParser.cpp">
       <Filter>Source Files\ReverseParser</Filter>
     </ClCompile>
+    <ClCompile Include="HSR210Body.cpp">
+      <Filter>Source Files\GameConfigs\Honkai StarRail</Filter>
+    </ClCompile>
+    <ClCompile Include="HSRBodyObject.cpp">
+      <Filter>Source Files\GameConfigs\Honkai StarRail</Filter>
+    </ClCompile>
+    <ClCompile Include="HSRObject2.cpp">
+      <Filter>Source Files\GameConfigs\Honkai StarRail</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="easylogging++.h">

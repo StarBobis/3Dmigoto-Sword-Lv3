@@ -148,11 +148,14 @@
     <ClCompile Include="HI3Body.cpp" />
     <ClCompile Include="HI3Body2.cpp" />
     <ClCompile Include="HI3Object.cpp" />
+    <ClCompile Include="HSR210Body.cpp" />
     <ClCompile Include="HSRBody.cpp" />
     <ClCompile Include="HSRBodyEnemy.cpp" />
     <ClCompile Include="HSRBodyNPC.cpp" />
+    <ClCompile Include="HSRBodyObject.cpp" />
     <ClCompile Include="HSRHair.cpp" />
     <ClCompile Include="HSRObject.cpp" />
+    <ClCompile Include="HSRObject2.cpp" />
     <ClCompile Include="HSRObjectIB.cpp" />
     <ClCompile Include="HSRWeapon.cpp" />
     <ClCompile Include="HSRWeaponType2.cpp" />
