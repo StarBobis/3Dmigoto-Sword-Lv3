@@ -1,3 +1,7 @@
+# Archived
+This project is stop developed and transfer all code into my MigotoModToo project,and keep developing it there, so this repository now turn into archived.
+
+
 # 3Dmigoto-Sword
 Extract .ib and .vb format 3D model from 3Dmigoto buffer files.
 
